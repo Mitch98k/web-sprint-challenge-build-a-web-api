@@ -159,7 +159,16 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
+  Node.js allows us to write backend, or code for servers, in JavaScript rather than having to learn another language. Express gives us the ability to use and write middleware to make out code more consise. Is is a lot like React for Node.js, in that it makes it much simpler to write a server than with just Node.js.
+
 1. Understand and explain the use of Middleware.
+  Middleware is code that intercepts actions taken by the computer and can modify our data, stop it from being passed through, or do nothing to it at all. It is often used for authentication, but it has many other uses such as logging out a response to the console.
+
 1. The basic principles of the REST architectural style.
+  REST is a standard for api's that helps to make them more client friendly. Some principles of it are that it is stateless, meaning that it doesn't store the client's state on the server but has the client handle it, and that it has different methods for different api calls. This is so the client isn't having to read, create, update, and delete all with get requests and the code is much cleaner. 
+
 1. Understand and explain the use of Express Routers.
+  Express Routers help us to organize our endpoints into different files so that they don't clutter up the server.js file. Endpoints for one data table may go in one router and another will go somewhere else.
+
 1. Describe tooling used to manually test the correctness of an API.
+  There are a few tools to manually test api's. These include Insomnia and Postman. The function as a clint to make requests to your endpoints so you can see how they respond and what you need to fix. 
